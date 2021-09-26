@@ -82,7 +82,7 @@ const GArray = function (argNum) {
   _G.init();
 };
 
-const numElements = 1000;
+const numElements = 10;
 const basicSort = new GArray(numElements);
 
 // 기본정렬
@@ -92,5 +92,4 @@ basicSort.toString();
 basicSort.timer.start();
 basicSort.bubleSort();
 basicSort.timer.stop();
-
 basicSort.toString();
